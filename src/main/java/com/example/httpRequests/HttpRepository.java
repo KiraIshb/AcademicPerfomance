@@ -8,8 +8,7 @@ import java.util.Arrays;
 
 public class HttpRepository {
     private static final String API_URL = "https://api.api-ninjas.com/v1/exercises?muscle=";
-    //ПЕРЕД ПУШЕМ УДАЛИТЬ!
-    private static final String API_KEY = "TI5FrejA5fcq5pMBrXpVqg==oJDLqVI7Js9dwsu4";
+    private static final String API_KEY = "";
     
     public static void getExerciesData (String param) throws IOException {
         URL url = new URL(API_URL + param);
